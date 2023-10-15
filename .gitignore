@@ -1,1 +1,5 @@
 data/Database.db
+
+classifier/catboost_info
+
+classifier_DL/__pycache__
