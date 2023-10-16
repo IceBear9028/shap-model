@@ -7,20 +7,21 @@
 [python code 참조 - 2](https://data-newbie.tistory.com/433)
 
 ### 실행방법
-- 1. conda 가상환경 생성
+1. conda 가상환경 생성
     - python : 3.9.17
-- 2. pip 이용해서 해당 프로젝트의 requirements.txt 로 환경구축
+2. pip 이용해서 해당 프로젝트의 requirements.txt 로 환경구축
     ```shell
     pip install -r requirements.txt
     ```
-- 3. ./data 폴더에 Database.db 파일 넣을 것
+3. ./data 폴더에 Database.db 파일 넣을 것
 
 ### SHAP 모델이 지원하는 라이브러리
 >  shap 은 model 라이브러리 version 에 크게 영향을 받지 않음
 
 1. #### xgboost
     설치 version : 2.0.0 [최신 2023.10.15 기준]
-    > - 1.x.x 버전에서도 잘 작동하는 것 확인
+    > - 1.x.x 버전에서도 잘 작동하는 것 확인  
+    > - 아래 둘중 하나 설치
     ```shell
     pip install xgboost
     ```
